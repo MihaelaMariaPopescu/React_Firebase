@@ -15,7 +15,7 @@ export const Auth = () => {
             await createUserWithEmailAndPassword(auth, email, password);
             // setlogare(true);
             alert("Welcome " + auth?.currentUser?.email + " !");
-            navigate("/MySongs");
+            navigate("/Discover");
         } catch (err) {
             console.error(err);
         }
