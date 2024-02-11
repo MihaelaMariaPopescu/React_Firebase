@@ -19,10 +19,10 @@ function App() {
           <Route index element={<Discover />} />
           <Route path='/Discover' element={<Discover />} />
 
-          {/* <Route element={ <PrivateRoute />}> */}
+           <Route element={ <PrivateRoute />}> */}
               <Route path='/AddSong' element={<AddSong />} />
               <Route path='/MySongs' element={<MySongs />} />
-          {/* </Route> */}
+           </Route> 
 
           <Route path='/SignIn' element={<SignIn />} />
         </Routes>
